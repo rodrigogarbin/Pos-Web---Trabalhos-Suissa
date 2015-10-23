@@ -19,13 +19,13 @@
 	Em objetos que irão se movimentar na tela ou banners em sites.
 
 ##### Como usar:
-```
+```css
 	seletor { transform: translate(x, y); } 
   	seletor { transform: translateX(x); } 
   	seletor { transform: translateY(y); } 
 ``` 
 ##### Exemplo de uso:
-```
+```css
 	seletor {
 	  transform: translate(20px, 60px);
 	} 
@@ -42,7 +42,7 @@
 	Em objetos que terão animação na pagina.
 
 ##### Como usar:
-```
+```css
 	seletor {transform: rotate(αdeg); } 
 	seletor {transform: rotateX(αdeg); } 
 	seletor {transform: rotateY(αdeg); } 
@@ -50,7 +50,7 @@
 ```
 
 ##### Exemplo de uso:
-```
+```css
 	seletor {
 	  transform: rotate(260deg);
 	}
@@ -77,7 +77,7 @@
 	Em caixas de texto ou elementos que flutuam na pagina.
 
 ##### Como usar:
-```
+```css
 	seletor { box-shadow: inset offsetX offsetY raioBlur spread cor; }
 ```
 
@@ -98,12 +98,12 @@
 	Em elementos que serão animados na pagina.
 
 ##### Como usar:
-```
+```css
 	seletor { animation: name duration timing-function delay iteration-count direction fill-mode play-state; }
 ```
 
 ##### Exemplo de uso:
-```
+```css
 	seletor {
     	animation: mymove 5s infinite;
 	}
@@ -121,14 +121,14 @@
 ##### Onde usar:
 
 ##### Como usar:
-```
+```css
 	seletor {
 	  resize: none|both|horizontal|vertical|initial|inherit;
 	}
 ```
 
 ##### Exemplo de uso:
-```
+```css
 	seletor {
 	  resize: vertical;
 	}
@@ -147,7 +147,7 @@
 	Em todos os elementos;
 
 ##### Como usar:
-```
+```css
 	@font-face {
 	  font-family: 'nome da fonte';
 	  src: local('nome_fonte_no_computador'), url('local_da_fonte') format('formato_da_fonte');
@@ -155,7 +155,7 @@
 ```
 
 ##### Exemplo de uso:
-```
+```css
 	@font-face {
 	  font-family: 'Arial';
 	  font-style: normal;
@@ -177,7 +177,7 @@
 	Nas propriedades onde os valores podem ser um resultado de expressões matemáticas.
 
 ##### Como usar:
-```
+```css
 	seletor { propriedade: calc(expressão matemática); }
 ```
 
@@ -200,10 +200,14 @@
 	Em elementos em que é possivel definir uma cor;
 
 ##### Como usar:
+```css
 	seletor { propriedade: hsla(H, S, L, A); } 
+```
 
 ##### Exemplo de uso:
+```css
 	seletor { background: hsla(274, 58%, 94%, 0.3); } 
+```
 
 
 
@@ -217,11 +221,14 @@
 	Em qualquer elemento.
 
 ##### Como usar:
+```css
 	seletor { transform: scale(x, y); } 
   	seletor { transform: scaleX(x); } 
   	seletor { transform: scaleY(y); } 
+```
 
 ##### Exemplo de uso:
+```css
 	seletor {
 	  transform: scale(3, 2);
 	}
@@ -231,7 +238,7 @@
 	seletor {
 	  transform: scaleY(2);
 	}
-
+```
 
 
 
@@ -245,14 +252,18 @@
 	A qualquer elemento.
 
 ##### Como usar:
+```css
 	seletor {
 	  background: rgba(cor1, cor2, cor3, opacidade);
 	}
+```
 
 ##### Exemplo de uso:
+```css
 	seletor {
 	  background: rgba(0, 0, 0, 0.5);
 	}
+```
 
 
 
