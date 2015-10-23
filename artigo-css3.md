@@ -60,6 +60,8 @@
 	seletor {
 	  transform: rotateY(260deg);
 	}
+	```
+	```css
 	seletor 
 	  transform: rotateZ(260deg);
 	}
@@ -82,7 +84,7 @@
 ```
 
 ##### Exemplo de uso:
-```
+```css
 	seletor { box-shadow:  9px 31px 27px 0px black; } 
 ```
 
@@ -182,7 +184,7 @@
 ```
 
 ##### Exemplo de uso:
-```
+```css
 	seletor {
 	 	width: calc(100% - 100px);
 	}
