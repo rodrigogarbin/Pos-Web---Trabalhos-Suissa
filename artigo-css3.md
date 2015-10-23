@@ -60,7 +60,7 @@
 	seletor {
 	  transform: rotateY(260deg);
 	}
-	seletor 
+	seletor {
 	  transform: rotateZ(260deg);
 	}
 ```
