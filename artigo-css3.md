@@ -191,43 +191,68 @@
 
 
 
-##### Funcionalidade: border-radius
+##### Funcionalidade: HSLA
 
 ##### O que é?
+	Com ele é possivel definir o brilho, satiração, tranparência e o hue de uma determinada propriedade;
 
 ##### Onde usar:
+	Em elementos em que é possivel definir uma cor;
 
 ##### Como usar:
+	seletor { propriedade: hsla(H, S, L, A); } 
 
 ##### Exemplo de uso:
+	seletor { background: hsla(274, 58%, 94%, 0.3); } 
 
 
 
 
-
-##### Funcionalidade: border-radius
+##### Funcionalidade: transform - scale
 
 ##### O que é?
+	Causa o aumento/redução das dimensões de um elemento ao longo dos eixos x e/ou y.
 
 ##### Onde usar:
+	Em qualquer elemento.
 
 ##### Como usar:
+	seletor { transform: scale(x, y); } 
+  	seletor { transform: scaleX(x); } 
+  	seletor { transform: scaleY(y); } 
 
 ##### Exemplo de uso:
+	seletor {
+	  transform: scale(3, 2);
+	}
+	seletor {
+	  transform: scaleX(3);
+	}
+	seletor {
+	  transform: scaleY(2);
+	}
 
 
 
 
 
-##### Funcionalidade: border-radius
+##### Funcionalidade: rgba
 
 ##### O que é?
+	Permite definir a opacidade em uma escala decimal de 0 a 1, juntamente com os valores RGB.
 
 ##### Onde usar:
+	A qualquer elemento.
 
 ##### Como usar:
+	seletor {
+	  background: rgba(cor1, cor2, cor3, opacidade);
+	}
 
 ##### Exemplo de uso:
+	seletor {
+	  background: rgba(0, 0, 0, 0.5);
+	}
 
 
 
@@ -235,3 +260,5 @@
 [http://www.maujor.com/tutorial/interativo-css3/](http://www.maujor.com/tutorial/interativo-css3/)
 
 [http://www.w3schools.com/cssref](http://www.w3schools.com/cssref)
+
+[https://developer.mozilla.org/pt-BR/docs/Web/CSS/color_value#rgba()](https://developer.mozilla.org/pt-BR/docs/Web/CSS/color_value#rgba())
