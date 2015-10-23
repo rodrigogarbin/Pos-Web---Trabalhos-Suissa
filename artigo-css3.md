@@ -19,17 +19,17 @@
 	Em objetos que irão se movimentar na tela ou banners em sites.
 
 ##### Como usar:
-'''
+```
 	seletor { transform: translate(x, y); } 
   	seletor { transform: translateX(x); } 
   	seletor { transform: translateY(y); } 
-'''
+``` 
 ##### Exemplo de uso:
-'''
+```
 	seletor {
 	  transform: translate(20px, 60px);
 	} 
-'''
+```
 
 
 
@@ -42,14 +42,15 @@
 	Em objetos que terão animação na pagina.
 
 ##### Como usar:
-'''
+```
 	seletor {transform: rotate(αdeg); } 
 	seletor {transform: rotateX(αdeg); } 
 	seletor {transform: rotateY(αdeg); } 
 	seletor {transform: rotateZ(αdeg); } 
-'''
+```
 
 ##### Exemplo de uso:
+```
 	seletor {
 	  transform: rotate(260deg);
 	}
@@ -59,10 +60,10 @@
 	seletor {
 	  transform: rotateY(260deg);
 	}
-	seletor {
+	seletor 
 	  transform: rotateZ(260deg);
 	}
-
+```
 
 
 
@@ -76,11 +77,14 @@
 	Em caixas de texto ou elementos que flutuam na pagina.
 
 ##### Como usar:
+```
 	seletor { box-shadow: inset offsetX offsetY raioBlur spread cor; }
+```
 
 ##### Exemplo de uso:
+```
 	seletor { box-shadow:  9px 31px 27px 0px black; } 
-
+```
 
 
 
@@ -94,12 +98,16 @@
 	Em elementos que serão animados na pagina.
 
 ##### Como usar:
+```
 	seletor { animation: name duration timing-function delay iteration-count direction fill-mode play-state; }
+```
 
 ##### Exemplo de uso:
+```
 	seletor {
     	animation: mymove 5s infinite;
 	}
+```
 
 
 
@@ -113,15 +121,18 @@
 ##### Onde usar:
 
 ##### Como usar:
+```
 	seletor {
 	  resize: none|both|horizontal|vertical|initial|inherit;
 	}
+```
 
 ##### Exemplo de uso:
+```
 	seletor {
 	  resize: vertical;
 	}
-
+```
 
 
 
@@ -136,18 +147,22 @@
 	Em todos os elementos;
 
 ##### Como usar:
+```
 	@font-face {
 	  font-family: 'nome da fonte';
 	  src: local('nome_fonte_no_computador'), url('local_da_fonte') format('formato_da_fonte');
 	}
+```
 
 ##### Exemplo de uso:
+```
 	@font-face {
 	  font-family: 'Arial';
 	  font-style: normal;
 	  font-weight: 400;
 	  src: local('Arial'), local('Arial'), url(https://fonts.gstatic.com/s/Arial/v13/Arial.woff2) format('woff2');
 	}
+```
 
 
 
@@ -162,12 +177,16 @@
 	Nas propriedades onde os valores podem ser um resultado de expressões matemáticas.
 
 ##### Como usar:
+```
 	seletor { propriedade: calc(expressão matemática); }
+```
 
 ##### Exemplo de uso:
+```
 	seletor {
 	 	width: calc(100% - 100px);
 	}
+```
 
 
 
