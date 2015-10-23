@@ -65,9 +65,15 @@ Rodrigo Garbin  (Unoesc Chapecó)
 
 ##### 6) Referências
 [http://bradfrost.com/blog/post/atomic-web-design/](http://bradfrost.com/blog/post/atomic-web-design/)
+
 [http://www.frontendbrasil.com.br/tutoriais/atomic-design-como-funciona/](http://www.frontendbrasil.com.br/tutoriais/atomic-design-como-funciona/)
+
 [https://www.phase2technology.com/blog/your-frontend-methodology-is-all-of-them-atomic-design-patternlab/](https://www.phase2technology.com/blog/your-frontend-methodology-is-all-of-them-atomic-design-patternlab/)
+
 [http://tableless.com.br/o-que-e-design-atomic/](http://tableless.com.br/o-que-e-design-atomic/)
+
 [http://www.infoq.com/br/presentations/atomic-design-behavior](http://www.infoq.com/br/presentations/atomic-design-behavior)
+
 [http://nomadev.com.br/passo-a-passo-como-desenvolver-com-atomic-design-mobile-first-e-stylus/](http://nomadev.com.br/passo-a-passo-como-desenvolver-com-atomic-design-mobile-first-e-stylus/)
+
 [http://demo.patternlab.io](http://demo.patternlab.io)

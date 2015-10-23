@@ -19,15 +19,17 @@
 	Em objetos que irão se movimentar na tela ou banners em sites.
 
 ##### Como usar:
+'''
 	seletor { transform: translate(x, y); } 
   	seletor { transform: translateX(x); } 
   	seletor { transform: translateY(y); } 
-
+'''
 ##### Exemplo de uso:
+'''
 	seletor {
 	  transform: translate(20px, 60px);
 	} 
-
+'''
 
 
 
@@ -40,10 +42,12 @@
 	Em objetos que terão animação na pagina.
 
 ##### Como usar:
+'''
 	seletor {transform: rotate(αdeg); } 
 	seletor {transform: rotateX(αdeg); } 
 	seletor {transform: rotateY(αdeg); } 
 	seletor {transform: rotateZ(αdeg); } 
+'''
 
 ##### Exemplo de uso:
 	seletor {
@@ -210,4 +214,5 @@
 
 ### Referencia:
 [http://www.maujor.com/tutorial/interativo-css3/](http://www.maujor.com/tutorial/interativo-css3/)
+
 [http://www.w3schools.com/cssref](http://www.w3schools.com/cssref)
